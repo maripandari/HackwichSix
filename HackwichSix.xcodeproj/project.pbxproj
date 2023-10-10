@@ -16,6 +16,7 @@
 		C710EFC12AD60AF00097E39F /* HackwichSixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C710EFC02AD60AF00097E39F /* HackwichSixTests.swift */; };
 		C710EFCB2AD60AF00097E39F /* HackwichSixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C710EFCA2AD60AF00097E39F /* HackwichSixUITests.swift */; };
 		C710EFCD2AD60AF00097E39F /* HackwichSixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C710EFCC2AD60AF00097E39F /* HackwichSixUITestsLaunchTests.swift */; };
+		C710EFDA2AD60C0E0097E39F /* ViewController_02.swift in Sources */ = {isa = PBXBuildFile; fileRef = C710EFD92AD60C0E0097E39F /* ViewController_02.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C710EFC62AD60AF00097E39F /* HackwichSixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackwichSixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C710EFCA2AD60AF00097E39F /* HackwichSixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichSixUITests.swift; sourceTree = "<group>"; };
 		C710EFCC2AD60AF00097E39F /* HackwichSixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichSixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C710EFD92AD60C0E0097E39F /* ViewController_02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_02.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				C710EFAB2AD60AEF0097E39F /* SceneDelegate.swift */,
 				C710EFAD2AD60AEF0097E39F /* ViewController.swift */,
 				C710EFAF2AD60AEF0097E39F /* Main.storyboard */,
+				C710EFD92AD60C0E0097E39F /* ViewController_02.swift */,
 				C710EFB22AD60AF00097E39F /* Assets.xcassets */,
 				C710EFB42AD60AF00097E39F /* LaunchScreen.storyboard */,
 				C710EFB72AD60AF00097E39F /* Info.plist */,
@@ -260,6 +263,7 @@
 			files = (
 				C710EFAE2AD60AEF0097E39F /* ViewController.swift in Sources */,
 				C710EFAA2AD60AEF0097E39F /* AppDelegate.swift in Sources */,
+				C710EFDA2AD60C0E0097E39F /* ViewController_02.swift in Sources */,
 				C710EFAC2AD60AEF0097E39F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
