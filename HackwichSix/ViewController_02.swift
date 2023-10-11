@@ -1,3 +1,4 @@
+
 //
 //  ViewController_02.swift
 //  HackwichSix
@@ -7,7 +8,23 @@
 
 import UIKit
 
-class ViewController_02: UIViewController {
+class ViewController_02: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    
+    var placesToTravelArray  = ["Thailand", "Germany", "New Zealand"]
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return placesToTravelArray.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let text = placesToTravelArray[indexPath.row]
+        cell.textLabel?.text = text
+        return cell
+
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
