@@ -11,6 +11,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     @IBOutlet weak var tableView: UITableView!
     var myFriendsArray = ["Jon", "Lin", "Chris"]
+    var myFriendsHomeArray = ["Makakilo", "Ewa Beach", "Kapolei"]
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return myFriendsArray.count
@@ -19,6 +20,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
                        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
                        let text = myFriendsArray[indexPath.row]
+        cell.detailTextLabel?.text = myFriendsHomeArray[indexPath.row]
                        cell.textLabel?.text = text
                        return cell
 

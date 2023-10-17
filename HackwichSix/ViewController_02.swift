@@ -12,6 +12,7 @@ class ViewController_02: UIViewController, UITableViewDataSource, UITableViewDel
     
     
     var placesToTravelArray  = ["Thailand", "Germany", "New Zealand"]
+    var citiesToTravelArray = ["Bangkok", "Munich", "Auckland"]
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return placesToTravelArray.count
@@ -20,6 +21,7 @@ class ViewController_02: UIViewController, UITableViewDataSource, UITableViewDel
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         let text = placesToTravelArray[indexPath.row]
+        cell.detailTextLabel?.text = citiesToTravelArray [indexPath.row]
         cell.textLabel?.text = text
         return cell
 
