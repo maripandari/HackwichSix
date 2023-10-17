@@ -34,7 +34,7 @@ class ViewController_02: UIViewController, UITableViewDataSource, UITableViewDel
         // Do any additional setup after loading the view.
     }
     
-
+// completed launch screen
     /*
     // MARK: - Navigation
 
